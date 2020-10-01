@@ -1,0 +1,137 @@
+/* Estilos Gerais*/
+
+/*Aplicando para todo o corpo*/
+*{   
+    box-sizing: border-box; 
+}  
+
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Propriedade da pagina */
+
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* BANNER */
+
+.banner {
+    background: url(../IMG/banner.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.banner__conteudo{
+    padding: 250px;
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner__subtitulo {
+    font-size: 23px;
+}
+
+.banner__link {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7e459b;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* Sobre mim */
+
+.container-margens {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.sobre__titulo{
+    font-size: 40px;
+    color: #c4c4c4;
+}
+
+.sobre__descrição-principal {
+    font-size: 22px;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descrição, .sobre__habilidades {
+    width: 60%;
+    line-height: 40px;
+}
+
+.sobre__descrição-principal, .sobre__habilidades_titulo {
+    font-size: 22px;
+}
+
+.sobre__habilidades {
+    margin-left: 70px;
+}
+
+.sobre__cv-link {
+    color: #7e459b;
+    border: 1px solid #7e459b;
+}
+
+/*Footer */
+
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais__link{
+    background-color: #7e459b;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 20px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.footer__copyright {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+
+
+
